@@ -49,7 +49,7 @@ function formatTime(date) {
   }
   
   function searchCity(city) {
-    const apiKey = "2b5fc755ac2ec59250868b5527df31c4";
+    const apiKey = "9f74875ab505b6e001e81795b8110557";
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric`;
     axios.get(`${apiUrl}&appid=${apiKey}`).then(displayWeatherInfo);
   }
